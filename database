@@ -1,0 +1,9 @@
+const database = 'blog';
+const collection = 'article';
+
+use(database);
+
+db.article.insert({
+    title: 'Hi',
+    content: 'Hello World'
+})
