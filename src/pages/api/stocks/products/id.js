@@ -1,6 +1,6 @@
 import { connect, model, models, Schema } from "mongoose";
 // const connectionString =
-//   "mongodb+srv://user1:d1aVx26YFCCnVKgr@cluster0.e6jfgzx.mongodb.net/stocks";
+//   "mongodb+srv://manallmahmood:stupid123@cluster0.y1xgwpp.mongodb.net/stocks;
 const connectionString = process.env.MONGODB_URI;
 
 export default async function handler(req, res) {
